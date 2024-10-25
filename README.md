@@ -5,6 +5,8 @@ This is a minimal example to reproduce a bug in the Drizzle library. The bug is 
 The goal is to support both the `node-postgres` and `neon-http` drivers. The `db` object is defined as a union type of the two drivers.
 See `src/db.ts` for the definition of the `db` object.
 
+You can check types with `npm run check-types`;
+
 ## Steps to reproduce
 
 1. Clone this repository
