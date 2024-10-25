@@ -1,0 +1,21 @@
+{
+  "name": "drizzle-union-type-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "~1.20.1",
+    "@neondatabase/serverless": "~0.10.1",
+    "drizzle-orm": "~0.35.3",
+    "pg": "~8.13.1"
+  },
+  "devDependencies": {
+    "@jakoblierman/tsconfig": "^0.1.0",
+    "@types/node": "^22.8.0",
+    "typescript": "^5.6.3"
+  },
+  "private": true
+}
